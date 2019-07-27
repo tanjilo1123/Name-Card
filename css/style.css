@@ -1,0 +1,91 @@
+* {
+  word-wrap:break-word;
+  word-break:normal;
+}
+
+body {
+  font-family:  'Montserrat', sans-serif;
+
+}
+
+.container {
+  background-color: #fff;
+  max-width: 900px;
+}
+
+.nameWrapper {
+  display: flex;
+  flex-flow: row no-wrap;
+}
+
+.textInput {
+  border: 0;
+  border-bottom: 1px solid black;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+#textAreaIntro {
+  margin-bottom: 0px;
+  
+}
+
+#textInputPhoto,
+#textAreaIntro {
+  width: 100%;
+}
+
+#outputArea {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.outputWapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px 30px;
+  margin-top: 50px;
+  border: 2px solid #f0f0f0;
+}
+
+.leftCol {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  margin-right: 50px;
+  width: 70%;
+}
+
+#introCol {
+  max-width: 100%;
+  margin-top: 25px;
+}
+
+img {
+  width: 120px;
+  height: 140px;
+}
+
+.warning {
+  border-bottom: 2px solid red;
+}
+
+.feedback {
+  color: red;
+}
+
+/*=============================================
+                 theme style
+ =============================================*/
+.lightStyle {
+  background-color: #888888;
+  color: #fff;
+}
+
+.darkStyle {
+  background-color: #000;
+  color: #eee;
+}
+

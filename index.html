@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Name Card</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container mx-auto mt-5">
+    <h3>Costumize your namecard</h3>
+    <div class="mainForm mt-3">
+      <form>
+        <input type="text" class="textInput mr-2" id="textInputName" name="textInputName" placeholder="Enter your name">
+        <span class="feedback small"></span>
+        <input type="text" class="textInput" id="textInputPhoto" name="textInputURL" placeholder="Enter your Photo URL">
+        <textarea name="textAreaIntro" class="textInput" id="textAreaIntro" placeholder="Write your Intro"
+          rows=10></textarea>
+        <div class="feedback small"></div><span id="textAreaLength">200 / 200</span>
+
+        <div class="radioWrapper mb-3">
+          <span>Chose the theme: </span>
+          <input type="radio" name="themeStyle" value="lightTheme" class="radio" checked><span>Light Theme</span>
+          <input type="radio" name="themeStyle" value="darkTheme" class="radio"><span>Dark Theme</span>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <div id="outputArea" class="mt-5 mb-5">
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
